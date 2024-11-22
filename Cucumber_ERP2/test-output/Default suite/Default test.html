@@ -1,0 +1,271 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 22 22:16:02 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>127 seconds (127746 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;4.18.0&apos;, revision: &apos;b6bf9de7cc*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [966f9ced-fed5-4b3e-a49a-897350dc0fc1, findElement {value=//table[@class=&apos;table ewTable&apos;]/tbody/tr[1]/td[6]/div/span/span, using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23768, moz:profile: C:\Users\k10sh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 966f9ced-fed5-4b3e-a49a-897350dc0fc1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at commonFunctions.FunctionLibrary.supplierTable(FunctionLibrary.java:146)
+	at stepDefinations.ERPSteps.verify_Suppliernumber(ERPSteps.java:104)
+	at ✽.verify Suppliernumber(file:FeatureFiles/Supplier.feature:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1402606475", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1402606475'><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;4.18.0&apos;, revision: &apos;b6bf9de7cc*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [966f9ced-fed5-4b3e-a49a-897350dc0fc1, findElement {value=//table[@class=&apos;table ewTable&apos;]/tbody/tr[1]/td[6]/div/span/span, using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23768, moz:profile: C:\Users\k10sh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 966f9ced-fed5-4b3e-a49a-897350dc0fc1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at commonFunctions.FunctionLibrary.supplierTable(FunctionLibrary.java:146)
+	at stepDefinations.ERPSteps.verify_Suppliernumber(ERPSteps.java:104)
+	at ✽.verify Suppliernumber(file:FeatureFiles/Supplier.feature:33)
+</pre></div></td>
+<td>13</td>
+<td>testRunner.Runner@4d1c00d0</td></tr>
+<tr>
+<td title='testRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: &apos;4.18.0&apos;, revision: &apos;b6bf9de7cc*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f13b962a-99fb-4c38-8d21-bba07ad3c682, findElement {value=//input[@id=&apos;x_Country&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25100, moz:profile: C:\Users\k10sh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f13b962a-99fb-4c38-8d21-bba07ad3c682
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at commonFunctions.FunctionLibrary.typeAction(FunctionLibrary.java:74)
+	at stepDefinations.ERPSteps.enter_in_with_and(ERPSteps.java:74)
+	at ✽.Enter in &quot;India&quot; with &quot;xpath&quot; and &quot;//input[@id=&apos;x_Country&apos;]&quot;(file:FeatureFiles/Supplier.feature:22)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1252713736", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1252713736'><pre>org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: &apos;4.18.0&apos;, revision: &apos;b6bf9de7cc*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f13b962a-99fb-4c38-8d21-bba07ad3c682, findElement {value=//input[@id=&apos;x_Country&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25100, moz:profile: C:\Users\k10sh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f13b962a-99fb-4c38-8d21-bba07ad3c682
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at commonFunctions.FunctionLibrary.typeAction(FunctionLibrary.java:74)
+	at stepDefinations.ERPSteps.enter_in_with_and(ERPSteps.java:74)
+	at ✽.Enter in &quot;India&quot; with &quot;xpath&quot; and &quot;//input[@id=&apos;x_Country&apos;]&quot;(file:FeatureFiles/Supplier.feature:22)
+</pre></div></td>
+<td>9</td>
+<td>testRunner.Runner@4d1c00d0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-640736196" onClick='toggleBox("Output-640736196", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-640736196" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-640736196">
+Supplier-00000007797   Supplier-00000007797<br/>
+Supplier Number Added Success<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>testRunner.Runner@4d1c00d0</td></tr>
+<tr>
+<td title='testRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-1401564942" onClick='toggleBox("Output-1401564942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1401564942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1401564942">
+Customer-00000013091   Customer-00000013091<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>testRunner.Runner@4d1c00d0</td></tr>
+<tr>
+<td title='testRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-1356763258" onClick='toggleBox("Output-1356763258", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1356763258" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1356763258">
+Customer-00000013093   Customer-00000013093<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>testRunner.Runner@4d1c00d0</td></tr>
+<tr>
+<td title='testRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-2122480101" onClick='toggleBox("Output-2122480101", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2122480101" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2122480101">
+Customer-00000013090   Customer-00000013090<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>testRunner.Runner@4d1c00d0</td></tr>
+<tr>
+<td title='testRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-1929661663" onClick='toggleBox("Output-1929661663", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1929661663" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1929661663">
+Supplier-00000007796   Supplier-00000007796<br/>
+Supplier Number Added Success<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>testRunner.Runner@4d1c00d0</td></tr>
+<tr>
+<td title='testRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-172325931" onClick='toggleBox("Output-172325931", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-172325931" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-172325931">
+Customer-00000013092   Customer-00000013092<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>testRunner.Runner@4d1c00d0</td></tr>
+</table><p>
+</body>
+</html>

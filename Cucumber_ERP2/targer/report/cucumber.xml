@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="141.593534">
+    <testcase classname="" name="_2" time="17.924299">
+        <system-out><![CDATA[Given Launch browser as.....................................................passed
+When launch url.............................................................passed
+When wait for username with "name" and "username" and "10"..................passed
+When Enter username with "name" and "username" and "admin"..................passed
+When Enter password with "xpath" and "//input[@id='password']" and "master".passed
+When click login button with "xpath" and "//button[@id='btnsubmit']"........passed
+When wait for Supplierlink with "xpath" and "(//a[contains(text(),'Suppliers')])[2]" and "10".passed
+When click Supplierlink with "xpath" and "(//a[contains(text(),'Suppliers')])[2]".passed
+When wait for AddIcon with "xpath" and "(//span[@data-caption='Add'])[1]" and "10".passed
+When click AddIcon button with "xpath" and "(//span[@data-caption='Add'])[1]".passed
+When wait for supplier number with "name" and "x_Supplier_Number" and "10"..passed
+When capture Supplier number with "name" and "x_Supplier_Number"............passed
+When Enter in "Mani" with "name" and "x_Supplier_Name"......................passed
+When Enter in "Ameerpet1" with "xpath" and "//*[@id='x_Address']"...........passed
+When Enter in "Hyderabad" with "xpath" and "//input[@id='x_City']"..........passed
+When Enter in "India" with "xpath" and "//input[@id='x_Country']"...........passed
+When Enter in "Qedgetech1" with "xpath" and "//input[@id='x_Contact_Person']".passed
+When Enter in "7780439535" with "xpath" and "//input[@id='x_Phone_Number']".passed
+When Enter in "test@gmail.com" with "xpath" and "//input[@id='x__Email']"...passed
+When Enter in "7780439535" with "xpath" and "//input[@id='x_Mobile_Number']".passed
+When Enter in "Iam a new Supplier" with "xpath" and "//*[@id='x_Notes']"....passed
+When click Add button with "id" and "btnAction".............................passed
+When wait for confirm Ok button with "xpath" and "//button[normalize-space()='OK!']" and "10".passed
+When click confirm Ok button  with "xpath" and "//button[normalize-space()='OK!']".passed
+When wait for Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]" and "10".passed
+When click Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]".passed
+When verify Suppliernumber..................................................passed
+When click logout link with "xpath" and "(//a[starts-with(text(),' Logout')])[2]".passed
+When close browser..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_3" time="17.577496">
+        <system-out><![CDATA[Given Launch browser as.....................................................passed
+When launch url.............................................................passed
+When wait for username with "name" and "username" and "10"..................passed
+When Enter username with "name" and "username" and "admin"..................passed
+When Enter password with "xpath" and "//input[@id='password']" and "master".passed
+When click login button with "xpath" and "//button[@id='btnsubmit']"........passed
+When wait for Supplierlink with "xpath" and "(//a[contains(text(),'Suppliers')])[2]" and "10".passed
+When click Supplierlink with "xpath" and "(//a[contains(text(),'Suppliers')])[2]".passed
+When wait for AddIcon with "xpath" and "(//span[@data-caption='Add'])[1]" and "10".passed
+When click AddIcon button with "xpath" and "(//span[@data-caption='Add'])[1]".passed
+When wait for supplier number with "name" and "x_Supplier_Number" and "10"..passed
+When capture Supplier number with "name" and "x_Supplier_Number"............passed
+When Enter in "Sharan" with "name" and "x_Supplier_Name"....................passed
+When Enter in "Ameerpet2" with "xpath" and "//*[@id='x_Address']"...........passed
+When Enter in "Hyderabad" with "xpath" and "//input[@id='x_City']"..........passed
+When Enter in "India" with "xpath" and "//input[@id='x_Country']"...........passed
+When Enter in "Qedgetech2" with "xpath" and "//input[@id='x_Contact_Person']".passed
+When Enter in "9955863258" with "xpath" and "//input[@id='x_Phone_Number']".passed
+When Enter in "test@gmail.com" with "xpath" and "//input[@id='x__Email']"...passed
+When Enter in "9955863258" with "xpath" and "//input[@id='x_Mobile_Number']".passed
+When Enter in "Iam a new Supplier" with "xpath" and "//*[@id='x_Notes']"....passed
+When click Add button with "id" and "btnAction".............................passed
+When wait for confirm Ok button with "xpath" and "//button[normalize-space()='OK!']" and "10".passed
+When click confirm Ok button  with "xpath" and "//button[normalize-space()='OK!']".passed
+When wait for Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]" and "10".passed
+When click Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]".passed
+When verify Suppliernumber..................................................passed
+When click logout link with "xpath" and "(//a[starts-with(text(),' Logout')])[2]".passed
+When close browser..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_4" time="16.129507">
+        <system-out><![CDATA[Given Launch browser as.....................................................passed
+When launch url.............................................................passed
+When wait for username with "name" and "username" and "10"..................passed
+When Enter username with "name" and "username" and "admin"..................passed
+When Enter password with "xpath" and "//input[@id='password']" and "master".passed
+When click login button with "xpath" and "//button[@id='btnsubmit']"........passed
+When wait for Supplierlink with "xpath" and "(//a[contains(text(),'Suppliers')])[2]" and "10".passed
+When click Supplierlink with "xpath" and "(//a[contains(text(),'Suppliers')])[2]".passed
+When wait for AddIcon with "xpath" and "(//span[@data-caption='Add'])[1]" and "10".passed
+When click AddIcon button with "xpath" and "(//span[@data-caption='Add'])[1]".passed
+When wait for supplier number with "name" and "x_Supplier_Number" and "10"..passed
+When capture Supplier number with "name" and "x_Supplier_Number"............passed
+When Enter in "Divya" with "name" and "x_Supplier_Name".....................passed
+When Enter in "Ameerpet3" with "xpath" and "//*[@id='x_Address']"...........passed
+When Enter in "Hyderabad" with "xpath" and "//input[@id='x_City']"..........passed
+When Enter in "India" with "xpath" and "//input[@id='x_Country']"...........passed
+When Enter in "Qedgetech12" with "xpath" and "//input[@id='x_Contact_Person']".passed
+When Enter in "7780258963" with "xpath" and "//input[@id='x_Phone_Number']".passed
+When Enter in "test@gmail.com" with "xpath" and "//input[@id='x__Email']"...passed
+When Enter in "7780258963" with "xpath" and "//input[@id='x_Mobile_Number']".passed
+When Enter in "Iam a new Supplier" with "xpath" and "//*[@id='x_Notes']"....passed
+When click Add button with "id" and "btnAction".............................passed
+When wait for confirm Ok button with "xpath" and "//button[normalize-space()='OK!']" and "10".passed
+When click confirm Ok button  with "xpath" and "//button[normalize-space()='OK!']".passed
+When wait for Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]" and "10".passed
+When click Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]".passed
+When verify Suppliernumber..................................................passed
+When click logout link with "xpath" and "(//a[starts-with(text(),' Logout')])[2]".passed
+When close browser..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_5" time="16.762386">
+        <system-out><![CDATA[Given Launch browser as.....................................................passed
+When launch url.............................................................passed
+When wait for username with "name" and "username" and "10"..................passed
+When Enter username with "name" and "username" and "admin"..................passed
+When Enter password with "xpath" and "//input[@id='password']" and "master".passed
+When click login button with "xpath" and "//button[@id='btnsubmit']"........passed
+When wait for Supplierlink with "xpath" and "(//a[contains(text(),'Suppliers')])[2]" and "10".passed
+When click Supplierlink with "xpath" and "(//a[contains(text(),'Suppliers')])[2]".passed
+When wait for AddIcon with "xpath" and "(//span[@data-caption='Add'])[1]" and "10".passed
+When click AddIcon button with "xpath" and "(//span[@data-caption='Add'])[1]".passed
+When wait for supplier number with "name" and "x_Supplier_Number" and "10"..passed
+When capture Supplier number with "name" and "x_Supplier_Number"............passed
+When Enter in "Akhila" with "name" and "x_Supplier_Name"....................passed
+When Enter in "Ameerpet4" with "xpath" and "//*[@id='x_Address']"...........passed
+When Enter in "Hyderabad" with "xpath" and "//input[@id='x_City']"..........passed
+When Enter in "India" with "xpath" and "//input[@id='x_Country']"...........passed
+When Enter in "Qedgetech3" with "xpath" and "//input[@id='x_Contact_Person']".passed
+When Enter in "9963558496" with "xpath" and "//input[@id='x_Phone_Number']".passed
+When Enter in "test@gmail.com" with "xpath" and "//input[@id='x__Email']"...passed
+When Enter in "9963558496" with "xpath" and "//input[@id='x_Mobile_Number']".passed
+When Enter in "Iam a new Supplier" with "xpath" and "//*[@id='x_Notes']"....passed
+When click Add button with "id" and "btnAction".............................passed
+When wait for confirm Ok button with "xpath" and "//button[normalize-space()='OK!']" and "10".passed
+When click confirm Ok button  with "xpath" and "//button[normalize-space()='OK!']".passed
+When wait for Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]" and "10".passed
+When click Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]".passed
+When verify Suppliernumber..................................................passed
+When click logout link with "xpath" and "(//a[starts-with(text(),' Logout')])[2]".passed
+When close browser..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_6" time="17.217858">
+        <system-out><![CDATA[Given Launch browser as.....................................................passed
+When launch url.............................................................passed
+When wait for username with "name" and "username" and "10"..................passed
+When Enter username with "name" and "username" and "admin"..................passed
+When Enter password with "xpath" and "//input[@id='password']" and "master".passed
+When Click login button with "xpath" and "//button[@id='btnsubmit']"........passed
+When wait for customerlink with "xpath" and "(//a[contains(normalize-space(),'Customers')])[2]" and "10".passed
+When click customerlink with "xpath" and "(//a[contains(normalize-space(),'Customers')])[2]".passed
+When wait for AddIcon with "xpath" and "(//span[@data-caption='Add'])[1]" and "10".passed
+When click AddIcon button with "xpath" and "(//span[@data-caption='Add'])[1]".passed
+When wait for customer number with "name" and "x_Customer_Number" and "10"..passed
+When capture customer number with "name" and "x_Customer_Number"............passed
+When Enter in "ramu1" with "name" and "x_Customer_Name".....................passed
+When Enter in "ameerpet1" with "xpath" and "//textarea[@id='x_Address']"....passed
+When Enter in "Hyderabad" with "xpath" and "//*[@id='x_City']"..............passed
+When Enter in "India" with "xpath" and "//*[@id='x_Country']"...............passed
+When Enter in "Qedge1" with "xpath" and "//*[@id='x_Contact_Person']".......passed
+When Enter in "7780439535" with "xpath" and "//*[@id='x_Phone_Number']".....passed
+When Enter in "Test@gmail.com" with "xpath" and "//*[@id='x__Email']".......passed
+When Enter in "7780439535" with "xpath" and "//*[@id='x_Mobile_Number']"....passed
+When Enter in "iam new customer" with "xpath" and "//*[@id='x_Notes']"......passed
+When click Add button with "id" and "btnAction".............................passed
+When wait for confirm Ok button with "xpath" and "//button[normalize-space()='OK!']" and "10".passed
+When click confirm Ok button  with "xpath" and "//button[normalize-space()='OK!']".passed
+When wait for Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]" and "10".passed
+When click Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]".passed
+When verify customernumber..................................................passed
+When click logout link with "xpath" and "(//a[starts-with(text(),' Logout')])[2]".passed
+When close browser..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_7" time="21.748681">
+        <system-out><![CDATA[Given Launch browser as.....................................................passed
+When launch url.............................................................passed
+When wait for username with "name" and "username" and "10"..................passed
+When Enter username with "name" and "username" and "admin"..................passed
+When Enter password with "xpath" and "//input[@id='password']" and "master".passed
+When Click login button with "xpath" and "//button[@id='btnsubmit']"........passed
+When wait for customerlink with "xpath" and "(//a[contains(normalize-space(),'Customers')])[2]" and "10".passed
+When click customerlink with "xpath" and "(//a[contains(normalize-space(),'Customers')])[2]".passed
+When wait for AddIcon with "xpath" and "(//span[@data-caption='Add'])[1]" and "10".passed
+When click AddIcon button with "xpath" and "(//span[@data-caption='Add'])[1]".passed
+When wait for customer number with "name" and "x_Customer_Number" and "10"..passed
+When capture customer number with "name" and "x_Customer_Number"............passed
+When Enter in "ramu2" with "name" and "x_Customer_Name".....................passed
+When Enter in "ameerpet2" with "xpath" and "//textarea[@id='x_Address']"....passed
+When Enter in "Hyderabad" with "xpath" and "//*[@id='x_City']"..............passed
+When Enter in "India" with "xpath" and "//*[@id='x_Country']"...............passed
+When Enter in "Qedge2" with "xpath" and "//*[@id='x_Contact_Person']".......passed
+When Enter in "7780439535" with "xpath" and "//*[@id='x_Phone_Number']".....passed
+When Enter in "Test@gmail.com" with "xpath" and "//*[@id='x__Email']".......passed
+When Enter in "7780439535" with "xpath" and "//*[@id='x_Mobile_Number']"....passed
+When Enter in "iam new customer" with "xpath" and "//*[@id='x_Notes']"......passed
+When click Add button with "id" and "btnAction".............................passed
+When wait for confirm Ok button with "xpath" and "//button[normalize-space()='OK!']" and "10".passed
+When click confirm Ok button  with "xpath" and "//button[normalize-space()='OK!']".passed
+When wait for Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]" and "10".passed
+When click Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]".passed
+When verify customernumber..................................................passed
+When click logout link with "xpath" and "(//a[starts-with(text(),' Logout')])[2]".passed
+When close browser..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_8" time="16.900799">
+        <system-out><![CDATA[Given Launch browser as.....................................................passed
+When launch url.............................................................passed
+When wait for username with "name" and "username" and "10"..................passed
+When Enter username with "name" and "username" and "admin"..................passed
+When Enter password with "xpath" and "//input[@id='password']" and "master".passed
+When Click login button with "xpath" and "//button[@id='btnsubmit']"........passed
+When wait for customerlink with "xpath" and "(//a[contains(normalize-space(),'Customers')])[2]" and "10".passed
+When click customerlink with "xpath" and "(//a[contains(normalize-space(),'Customers')])[2]".passed
+When wait for AddIcon with "xpath" and "(//span[@data-caption='Add'])[1]" and "10".passed
+When click AddIcon button with "xpath" and "(//span[@data-caption='Add'])[1]".passed
+When wait for customer number with "name" and "x_Customer_Number" and "10"..passed
+When capture customer number with "name" and "x_Customer_Number"............passed
+When Enter in "ramu3" with "name" and "x_Customer_Name".....................passed
+When Enter in "ameerpet3" with "xpath" and "//textarea[@id='x_Address']"....passed
+When Enter in "Hyderabad" with "xpath" and "//*[@id='x_City']"..............passed
+When Enter in "India" with "xpath" and "//*[@id='x_Country']"...............passed
+When Enter in "Qedge3" with "xpath" and "//*[@id='x_Contact_Person']".......passed
+When Enter in "7780439535" with "xpath" and "//*[@id='x_Phone_Number']".....passed
+When Enter in "Test@gmail.com" with "xpath" and "//*[@id='x__Email']".......passed
+When Enter in "7780439535" with "xpath" and "//*[@id='x_Mobile_Number']"....passed
+When Enter in "iam new customer" with "xpath" and "//*[@id='x_Notes']"......passed
+When click Add button with "id" and "btnAction".............................passed
+When wait for confirm Ok button with "xpath" and "//button[normalize-space()='OK!']" and "10".passed
+When click confirm Ok button  with "xpath" and "//button[normalize-space()='OK!']".passed
+When wait for Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]" and "10".passed
+When click Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]".passed
+When verify customernumber..................................................passed
+When click logout link with "xpath" and "(//a[starts-with(text(),' Logout')])[2]".passed
+When close browser..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_9" time="17.332508">
+        <system-out><![CDATA[Given Launch browser as.....................................................passed
+When launch url.............................................................passed
+When wait for username with "name" and "username" and "10"..................passed
+When Enter username with "name" and "username" and "admin"..................passed
+When Enter password with "xpath" and "//input[@id='password']" and "master".passed
+When Click login button with "xpath" and "//button[@id='btnsubmit']"........passed
+When wait for customerlink with "xpath" and "(//a[contains(normalize-space(),'Customers')])[2]" and "10".passed
+When click customerlink with "xpath" and "(//a[contains(normalize-space(),'Customers')])[2]".passed
+When wait for AddIcon with "xpath" and "(//span[@data-caption='Add'])[1]" and "10".passed
+When click AddIcon button with "xpath" and "(//span[@data-caption='Add'])[1]".passed
+When wait for customer number with "name" and "x_Customer_Number" and "10"..passed
+When capture customer number with "name" and "x_Customer_Number"............passed
+When Enter in "ramu4" with "name" and "x_Customer_Name".....................passed
+When Enter in "ameerpet4" with "xpath" and "//textarea[@id='x_Address']"....passed
+When Enter in "Hyderabad" with "xpath" and "//*[@id='x_City']"..............passed
+When Enter in "India" with "xpath" and "//*[@id='x_Country']"...............passed
+When Enter in "Qedge4" with "xpath" and "//*[@id='x_Contact_Person']".......passed
+When Enter in "7780439535" with "xpath" and "//*[@id='x_Phone_Number']".....passed
+When Enter in "Test@gmail.com" with "xpath" and "//*[@id='x__Email']".......passed
+When Enter in "7780439535" with "xpath" and "//*[@id='x_Mobile_Number']"....passed
+When Enter in "iam new customer" with "xpath" and "//*[@id='x_Notes']"......passed
+When click Add button with "id" and "btnAction".............................passed
+When wait for confirm Ok button with "xpath" and "//button[normalize-space()='OK!']" and "10".passed
+When click confirm Ok button  with "xpath" and "//button[normalize-space()='OK!']".passed
+When wait for Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]" and "10".passed
+When click Alert Ok button with "xpath" and "(//button[starts-with(text(),'OK')])[6]".passed
+When verify customernumber..................................................passed
+When click logout link with "xpath" and "(//a[starts-with(text(),' Logout')])[2]".passed
+When close browser..........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
